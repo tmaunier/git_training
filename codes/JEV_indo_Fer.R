@@ -70,7 +70,7 @@ data_for_HMC = list(N = nrow(data), age_l = data$age_l, age_u = data$age_u,
 stan_FOI_fit = sampling(object = stan_sero_model_2, data = data_for_HMC, 
                         chains = 4, iter = 4000)
 
-print(stan_FOI_fit)
+#print(stan_FOI_fit)
 
 mcmc_areas(as.array(stan_FOI_fit),regex_pars = "p_age")
 
