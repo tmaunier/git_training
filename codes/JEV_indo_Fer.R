@@ -26,8 +26,7 @@ data {
 parameters {
   
   real<lower = 0> lambda; //constant FOI
-  real<lower = 0> psi; //over-dispersion par from DMN
-  ####ERROR ##### 2+2=5
+  real<lower = 1> psi; //over-dispersion par from DMN
   real<lower = 0> rho; //reporting rate
 
 }
