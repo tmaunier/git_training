@@ -1,3 +1,5 @@
+#buggy buggy bug bug
+
 #JEV model: Dirichlet Multinomial + Poisson to estimate case reported , based on Natsuko's work => not work yet
 #library loading:
 library(rstan)
